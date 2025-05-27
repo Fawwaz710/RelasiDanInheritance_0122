@@ -32,8 +32,7 @@ class dokter {
 };
 
 void pasien::cetakDokter(){
-    cout << "Daftar Dokter yang menangani pasien \""
-    <<this->nama<< "\":\n";
+    cout << "Daftar Dokter yang menangani pasien \"" << this->nama << "\":\n";
     //auto digunakan dalam perulangan 
     for (auto& a : daftar_dokter) {
         cout << a->nama "\n";
@@ -64,7 +63,6 @@ int main () {
     delete varPasien2;
     delete varDokter1;
     delete varDokter2;
-    
-    
 
+    return 0;
 }
